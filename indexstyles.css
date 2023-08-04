@@ -90,6 +90,7 @@ input.search {
     color: #fff;
     border: none;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .index_dots {
@@ -185,7 +186,7 @@ section {
     height: 60vh;
     width: 100%;
     position: absolute;
-    margin-top: 19%;
+    margin-top: 22%;
     z-index: -1;
 }
 
@@ -254,6 +255,7 @@ section {
     border-radius: 8px;
     background: #DE350B;
     margin-top: 7%;
+    cursor: pointer;
 }
 .index_trainers {
     display: flex;
@@ -307,6 +309,7 @@ section {
     border: 1px solid #DE350B;
     color: #DE350B;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 .index_professional h1 {
@@ -337,6 +340,7 @@ section {
     font-family: Open Sans;
     font-size: 18px;
     color: #020F22;
+    text-align: justify;
 }
 
 .index_testimonials {
@@ -379,15 +383,114 @@ section {
     margin-top: 15%;
 }
 
-.index_test_p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
 .index_testimonial h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     font-weight: 500;
     color: #020F22;
     margin-top: 32px;
+}
+
+.index_loading {
+    display: flex;
+    width: 100%;
+    margin-top: 9%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.index_footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 48px 116px 116px 64px;
+    align-items: center;
+    background: #020F22;
+    gap: 168px;
+    color: #fff;
+
+}
+
+.index_footerlogo {
+    width: 35%;
+    margin-top: 48px;
+}
+
+.index_fitpro {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px; 
+    margin-top: 24px;
+}
+
+.index_join {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.03px;
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+.index_social {
+    margin-right: 16px;
+}
+.links_header {
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+margin-top: -22%;
+margin-bottom: 15%;
+}
+
+.index_links {
+    width: 20%;
+}
+
+.index_url {
+    color: #FFF;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+line-height: 26px; 
+}
+
+.index_url img {
+    padding: 0 16px;
+}
+
+.links_header2 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.index_newsletter {
+    color: #FFF;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+margin-top: 80px;
+}
+
+.emailinput {
+    display: flex;
+width: 413px;
+padding: 8px 24px;
+align-items: center;
+margin-top: 10px;
+border-radius: 4px;
+border: 1px solid rgba(247, 247, 247, 0.37);
+color: #F7F7F75E;
+background: transparent;
+
 }
